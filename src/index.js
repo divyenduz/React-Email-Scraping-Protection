@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 
-class ReactEmailScrapingProtect extends React.Component {
+class ReactScrapingProtection extends React.Component {
   constructor(props) {
     super(props);
     const { mask } = props;
@@ -29,7 +29,7 @@ const email = "some@email.com";
 
 const App = () => (
   <div>
-    <ReactEmailScrapingProtect
+    <ReactScrapingProtection
       timeout={1000}
       mask={email.split("").map(char => (char === "@" ? "@" : "."))}
       email={email}
