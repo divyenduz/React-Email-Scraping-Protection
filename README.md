@@ -1,6 +1,6 @@
-# React Email Scraping Protection
+# React Scraping Protection
 
-- Lazy load string to avoid it being scraped. 
+- Lazy load a string to avoid it being scraped by them bots. 
 
 # Resources
 
