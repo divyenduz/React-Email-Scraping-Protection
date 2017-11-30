@@ -2,6 +2,12 @@
 
 - Lazy load a string to avoid it being scraped by them bots. 
 
+# Why
+
+- This component hopes to be able to protect content (email etc) from bots when React components are rendered on the server side. 
+
+- Note that this component has not yet been tested at all in a server side rendering environment (local or prod). The API may change a ton as I come to it.  
+
 # Resources
 
 - https://github.com/JonasCz/How-To-Prevent-Scraping
