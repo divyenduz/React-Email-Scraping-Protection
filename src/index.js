@@ -6,22 +6,22 @@ class ReactScrapingProtection extends React.Component {
     super(props);
     const { mask } = props;
     this.state = {
-      email: mask || "-@-"
+      text: mask || "-@-"
     };
   }
 
   componentDidMount() {
-    const { timeout, email } = this.props;
+    const { timeout, text } = this.props;
     setTimeout(() => {
       this.setState({
-        email: email
+        text: text
       });
     }, timeout || 100);
   }
 
   render() {
-    const { email } = this.state;
-    return <div>{email}</div>;
+    const { text } = this.state;
+    return <div>{text}</div>;
   }
 }
 
@@ -32,7 +32,7 @@ const App = () => (
     <ReactScrapingProtection
       timeout={1000}
       mask={email.split("").map(char => (char === "@" ? "@" : "."))}
-      email={email}
+      text={email}
     />
   </div>
 );
