@@ -3,11 +3,11 @@
   "description": "A React component to lazy load the email address of a user to protect it against spam. \n\nAn alternate approach can be to render the email as image. ",
   "version": "0.0.0",
   "dependencies": {
-    "react-dom": "16.0.0",
-    "react": "16.0.0"
+    "react-dom": "16.4.1",
+    "react": "16.4.1"
   },
   "devDependencies": {
-    "react-scripts": "1.0.0"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
