@@ -1,5 +1,7 @@
 # React Scraping Protection
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/divyenduz/React-Scraping-Protection.svg)](https://greenkeeper.io/)
+
 - Lazy load a string to avoid it being scraped by them bots. 
 
 # Why
